@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us | Tool Management System</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @keyframes fadeUp { 0% { opacity: 0; transform: translateY(16px); } 100% { opacity: 1; transform: translateY(0); } }
+    @keyframes float { 0% { transform: translateY(0); } 50% { transform: translateY(-12px); } 100% { transform: translateY(0); } }
+  </style>
+</head>
+<body class="antialiased text-slate-800 bg-white">
+  <header class="sticky top-0 z-40 bg-black border-b border-black">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex h-24 items-center justify-between">
+        <div class="flex items-center gap-4 font-semibold text-white text-xl">
+          <img src="aupload/ko.jpg" alt="Logo" class="h-16 w-16 rounded-full object-cover">
+          <span>Tool Management</span>
+        </div>
+        <nav class="hidden md:flex items-center gap-7 text-base font-medium">
+          <a class="text-slate-300 hover:text-white" href="index.html">Home</a>
+          <a class="text-orange-600" href="about.html">About Us</a>
+          <a class="text-slate-300 hover:text-white" href="features.html">Features</a>
+          <a class="text-slate-300 hover:text-white" href="pricing.html">Pricing</a>
+          <a class="text-slate-300 hover:text-white" href="blog.html">Blog</a>
+          <a class="text-slate-300 hover:text-white" href="contact.html">Contact Us</a>
+        </nav>
+        <a href="pricing.html" class="hidden md:inline-flex items-center rounded-lg bg-orange-600 px-5 py-3 text-white text-sm font-semibold hover:bg-orange-500">Get Started</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    
+    <section class="bg-slate-50 py-16">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center" style="animation: fadeUp .8s ease-out both;">
+        <h1 class="text-4xl font-extrabold text-black">About Us</h1>
+        <p class="mt-4 text-lg text-slate-600">We help operations teams manage tools with clarity, speed, and confidence.</p>
+      </div>
+    </section>
+
+    
+    <section class="py-12">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-10 items-start">
+        <div style="animation: fadeUp .8s ease-out both; animation-delay: .1s;">
+          <h2 class="text-2xl font-bold text-black">Our Mission</h2>
+          <p class="mt-4 text-slate-700">Provide a modern, reliable platform for tracking tools, preventing downtime, and empowering teams to focus on meaningful work.</p>
+          <p class="mt-3 text-slate-700">We aim to give every operations team real-time visibility and simple, powerful workflows so they can deliver safely and on time.</p>
+        </div>
+        <div class="rounded-2xl ring-1 ring-slate-200 p-6 bg-white" style="animation: fadeUp .8s ease-out both; animation-delay: .2s;">
+          <h3 class="text-xl font-semibold text-black">Values</h3>
+          <ul class="mt-4 space-y-3">
+            <li class="flex items-start gap-3">
+              <span class="mt-1 inline-flex h-6 w-6 items-center justify-center rounded-full bg-orange-600 text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-4 w-4"><path fill-rule="evenodd" d="M2.25 12a9.75 9.75 0 1119.5 0 9.75 9.75 0 01-19.5 0zm14.03-2.78a.75.75 0 10-1.06-1.06l-4.72 4.72-1.69-1.69a.75.75 0 10-1.06 1.06l2.22 2.22c.3.3.77.3 1.06 0l5.25-5.25z" clip-rule="evenodd"/></svg>
+              </span>
+              <div class="text-slate-700">Reliability first</div>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="mt-1 inline-flex h-6 w-6 items-center justify-center rounded-full bg-orange-600 text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-4 w-4"><path fill-rule="evenodd" d="M2.25 12a9.75 9.75 0 1119.5 0 9.75 9.75 0 01-19.5 0zm14.03-2.78a.75.75 0 10-1.06-1.06l-4.72 4.72-1.69-1.69a.75.75 0 10-1.06 1.06l2.22 2.22c.3.3.77.3 1.06 0l5.25-5.25z" clip-rule="evenodd"/></svg>
+              </span>
+              <div class="text-slate-700">Clarity over complexity</div>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="mt-1 inline-flex h-6 w-6 items-center justify-center rounded-full bg-orange-600 text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-4 w-4"><path fill-rule="evenodd" d="M2.25 12a9.75 9.75 0 1119.5 0 9.75 9.75 0 01-19.5 0zm14.03-2.78a.75.75 0 10-1.06-1.06l-4.72 4.72-1.69-1.69a.75.75 0 10-1.06 1.06l2.22 2.22c.3.3.77.3 1.06 0l5.25-5.25z" clip-rule="evenodd"/></svg>
+              </span>
+              <div class="text-slate-700">Customer success as the north star</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="py-20 bg-slate-50">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl font-extrabold text-black mb-10">Meet Our Company Members</h2>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+     
+          <div class="bg-white p-6 rounded-2xl shadow-sm hover:shadow-lg transition duration-300" style="animation: fadeUp .8s ease-out both; animation-delay: .1s;">
+            <img src="aupload/ka.jpg" alt="John Doe" class="w-32 h-32 mx-auto rounded-full object-cover ring-2 ring-orange-500">
+            <h3 class="mt-4 text-lg font-semibold text-black">Lyn Magbanua</h3>
+            <p class="text-sm text-orange-600">Project Manager</p>
+            <p class="mt-2 text-slate-600 text-sm">Oversees project flow and ensures timely delivery with quality results.</p>
+          </div>
+    
+          <div class="bg-white p-6 rounded-2xl shadow-sm hover:shadow-lg transition duration-300" style="animation: fadeUp .8s ease-out both; animation-delay: .2s;">
+            <img src="aupload/nic.jpg" alt="Jane Smith" class="w-32 h-32 mx-auto rounded-full object-cover ring-2 ring-orange-500">
+            <h3 class="mt-4 text-lg font-semibold text-black">Dominic Viloria</h3>
+            <p class="text-sm text-orange-600">Lead Developer</p>
+            <p class="mt-2 text-slate-600 text-sm">Expert in backend systems and database management for smooth operations.</p>
+          </div>
+          
+          <div class="bg-white p-6 rounded-2xl shadow-sm hover:shadow-lg transition duration-300" style="animation: fadeUp .8s ease-out both; animation-delay: .3s;">
+            <img src="aupload/pal.jpg" alt="Mark Johnson" class="w-32 h-32 mx-auto rounded-full object-cover ring-2 ring-orange-500">
+            <h3 class="mt-4 text-lg font-semibold text-black">Kenneth Abejoro</h3>
+            <p class="text-sm text-orange-600">UI/UX Designer</p>
+            <p class="mt-2 text-slate-600 text-sm">Designs user-friendly and modern interfaces that enhance user experience.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-12 bg-slate-50">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-10 items-center">
+        <div style="animation: fadeUp .8s ease-out both; animation-delay: .1s;">
+          <h2 class="text-2xl font-bold text-black">Our Vision</h2>
+          <p class="mt-4 text-slate-700">To become the most trusted platform for tool accountability and safety, where every item’s status is known and every team member can find what they need instantly.</p>
+        </div>
+        <div class="rounded-2xl ring-1 ring-slate-200 p-6 bg-white" style="animation: fadeUp .8s ease-out both; animation-delay: .2s;">
+          <ul class="space-y-3">
+            <li class="flex items-start gap-3">
+              <span class="mt-1 inline-flex h-6 w-6 items-center justify-center rounded-full bg-orange-600 text-white">✓</span>
+              <span class="text-slate-700">Real-time transparency across locations</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="mt-1 inline-flex h-6 w-6 items-center justify-center rounded-full bg-orange-600 text-white">✓</span>
+              <span class="text-slate-700">Zero downtime from missing or broken tools</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="mt-1 inline-flex h-6 w-6 items-center justify-center rounded-full bg-orange-600 text-white">✓</span>
+              <span class="text-slate-700">Delightful experiences for every role</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+
+  </main>
+</body>
+</html>

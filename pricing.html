@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pricing | Tool Management System</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @keyframes fadeUp { 0% { opacity: 0; transform: translateY(16px); } 100% { opacity: 1; transform: translateY(0); } }
+  </style>
+</head>
+<body class="antialiased text-slate-800 bg-white">
+  <header class="sticky top-0 z-40 bg-black border-b border-black">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex h-24 items-center justify-between">
+        <div class="flex items-center gap-4 font-semibold text-white text-xl">
+          <img src="aupload/ko.jpg" alt="Logo" class="h-16 w-16 rounded-full object-cover">
+          <span>Tool Management</span>
+        </div>
+        <nav class="hidden md:flex items-center gap-7 text-base font-medium">
+          <a class="text-slate-300 hover:text-white" href="index.html">Home</a>
+          <a class="text-slate-300 hover:text-white" href="about.html">About Us</a>
+          <a class="text-slate-300 hover:text-white" href="features.html">Features</a>
+          <a class="text-orange-600" href="pricing.html">Pricing</a>
+          <a class="text-slate-300 hover:text-white" href="blog.html">Blog</a>
+          <a class="text-slate-300 hover:text-white" href="contact.html">Contact Us</a>
+        </nav>
+        <a href="pricing.html" class="hidden md:inline-flex items-center rounded-lg bg-orange-600 px-5 py-3 text-white text-sm font-semibold hover:bg-orange-500">Get Started</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="bg-slate-50 py-16">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center" style="animation: fadeUp .8s ease-out both;">
+        <h1 class="text-4xl font-extrabold text-black">Pricing</h1>
+        <p class="mt-4 text-lg text-slate-600">Simple, transparent plans for teams of every size.</p>
+      </div>
+    </section>
+
+    <section class="py-12">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-3 gap-6">
+        <div class="p-6 rounded-2xl ring-1 ring-slate-200" style="animation: fadeUp .8s ease-out both; animation-delay: .1s;">
+          <h3 class="text-lg font-semibold text-black">Starter</h3>
+          <p class="mt-1 text-sm text-slate-600">For small teams getting started</p>
+          <p class="mt-6 text-4xl font-extrabold text-black">₱100<span class="text-base font-medium text-slate-600">/mo</span></p>
+          <ul class="mt-6 space-y-2 text-sm text-slate-700">
+            <li>Up to 200 tools</li>
+            <li>Basic reservations</li>
+            <li>Email support</li>
+          </ul>
+          <a href="#" class="mt-8 inline-flex w-full justify-center rounded-lg bg-slate-900 px-4 py-2.5 text-white font-semibold hover:bg-slate-800">Choose Starter</a>
+        </div>
+        <div class="p-6 rounded-2xl ring-2 ring-orange-600 shadow-md" style="animation: fadeUp .8s ease-out both; animation-delay: .2s;">
+          <h3 class="text-lg font-semibold text-black">Pro</h3>
+          <p class="mt-1 text-sm text-slate-600">For growing operations</p>
+          <p class="mt-6 text-4xl font-extrabold text-black">₱250<span class="text-base font-medium text-slate-600">/mo</span></p>
+          <ul class="mt-6 space-y-2 text-sm text-slate-700">
+            <li>Unlimited tools</li>
+            <li>Advanced reservations</li>
+            <li>Maintenance scheduling</li>
+            <li>Priority support</li>
+          </ul>
+          <a href="#" class="mt-8 inline-flex w-full justify-center rounded-lg bg-orange-600 px-4 py-2.5 text-white font-semibold hover:bg-orange-500">Choose Pro</a>
+        </div>
+        <div class="p-6 rounded-2xl ring-1 ring-slate-200" style="animation: fadeUp .8s ease-out both; animation-delay: .3s;">
+          <h3 class="text-lg font-semibold text-black">Enterprise</h3>
+          <p class="mt-1 text-sm text-slate-600">For large or regulated teams</p>
+          <p class="mt-6 text-4xl font-extrabold text-black">Custom</p>
+          <ul class="mt-6 space-y-2 text-sm text-slate-700">
+            <li>SLA and SSO</li>
+            <li>Custom roles</li>
+            <li>Dedicated success manager</li>
+          </ul>
+          <a href="contact.html" class="mt-8 inline-flex w-full justify-center rounded-lg border border-slate-300 px-4 py-2.5 text-slate-700 font-semibold hover:bg-white">Contact Sales</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-16 bg-slate-50">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8" style="animation: fadeUp .8s ease-out both;">
+        <h2 class="text-2xl font-bold text-black">FAQ</h2>
+        <div class="mt-6 space-y-6">
+          <details class="rounded-lg ring-1 ring-slate-200 p-4">
+            <summary class="cursor-pointer font-semibold text-black">Can I change plans later?</summary>
+            <p class="mt-3 text-sm text-slate-700">Yes, you can upgrade or downgrade at any time.</p>
+          </details>
+          <details class="rounded-lg ring-1 ring-slate-200 p-4">
+            <summary class="cursor-pointer font-semibold text-black">Is there a free trial?</summary>
+            <p class="mt-3 text-sm text-slate-700">All plans include a 14‑day free trial.</p>
+          </details>
+          <details class="rounded-lg ring-1 ring-slate-200 p-4">
+            <summary class="cursor-pointer font-semibold text-black">Do you offer discounts?</summary>
+            <p class="mt-3 text-sm text-slate-700">Annual billing includes a discount across all plans.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
+
+

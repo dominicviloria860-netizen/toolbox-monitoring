@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Tool Management System</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @keyframes fadeUp { 0% { opacity: 0; transform: translateY(16px); } 100% { opacity: 1; transform: translateY(0); } }
+  </style>
+</head>
+<body class="antialiased text-slate-800 bg-white">
+  <header class="sticky top-0 z-40 bg-black border-b border-black">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex h-24 items-center justify-between">
+        <div class="flex items-center gap-4 font-semibold text-white text-xl">
+          <img src="aupload/ko.jpg" alt="Logo" class="h-16 w-16 rounded-full object-cover">
+          <span>Tool Management</span>
+        </div>
+        <nav class="hidden md:flex items-center gap-7 text-base font-medium">
+          <a class="text-slate-300 hover:text-white" href="index.html">Home</a>
+          <a class="text-slate-300 hover:text-white" href="about.html">About Us</a>
+          <a class="text-slate-300 hover:text-white" href="features.html">Features</a>
+          <a class="text-slate-300 hover:text-white" href="pricing.html">Pricing</a>
+          <a class="text-slate-300 hover:text-white" href="blog.html">Blog</a>
+          <a class="text-orange-600" href="contact.html">Contact Us</a>
+        </nav>
+        <a href="pricing.html" class="hidden md:inline-flex items-center rounded-lg bg-orange-600 px-5 py-3 text-white text-sm font-semibold hover:bg-orange-500">Get Started</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="bg-slate-50 py-16">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center" style="animation: fadeUp .8s ease-out both;">
+        <h1 class="text-4xl font-extrabold text-slate-900">Contact Us</h1>
+        <p class="mt-4 text-lg text-slate-600">We are here to help. Send us a message and we will get back shortly.</p>
+      </div>
+    </section>
+
+    <section class="py-12">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-10">
+        <form class="rounded-2xl ring-1 ring-slate-200 p-6 grid gap-4" style="animation: fadeUp .8s ease-out both; animation-delay: .1s;">
+          <div>
+            <label class="block text-sm font-medium text-slate-700">Full Name</label>
+            <input type="text" class="mt-1 w-full rounded-lg border-slate-300 focus:border-indigo-600 focus:ring-indigo-600" placeholder="Jane Doe">
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-slate-700">Email</label>
+            <input type="email" class="mt-1 w-full rounded-lg border-slate-300 focus:border-indigo-600 focus:ring-indigo-600" placeholder="jane@example.com">
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-slate-700">Company</label>
+            <input type="text" class="mt-1 w-full rounded-lg border-slate-300 focus:border-indigo-600 focus:ring-indigo-600" placeholder="Company Inc.">
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-slate-700">Message</label>
+            <textarea rows="5" class="mt-1 w-full rounded-lg border-slate-300 focus:border-indigo-600 focus:ring-indigo-600" placeholder="How can we help?"></textarea>
+          </div>
+          <button type="submit" class="inline-flex justify-center rounded-lg bg-orange-600 px-6 py-3 text-white font-semibold hover:bg-indigo-500">Send Message</button>
+        </form>
+        <div class="grid gap-6">
+          <div class="rounded-2xl ring-1 ring-slate-200 p-6" style="animation: fadeUp .8s ease-out both; animation-delay: .2s;">
+            <h3 class="font-semibold text-slate-900">Company Address</h3>
+            <p class="mt-2 text-sm text-slate-600">Tantangan, South Cotabato</p>
+          </div>
+          <div class="rounded-2xl ring-1 ring-slate-200 p-6" style="animation: fadeUp .8s ease-out both; animation-delay: .3s;">
+            <h3 class="font-semibold text-slate-900">Support</h3>
+            <p class="mt-2 text-sm text-slate-600">Lawrangexdominic@gmail.com</p>
+          </div>
+         
+        </div>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
+
+
